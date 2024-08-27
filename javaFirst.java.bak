@@ -1,0 +1,12 @@
+class javaFirst
+{
+	public static void main(String args[])
+	{
+		system.out.print("I am learning java"); 
+	}
+}
+// to comment
+/*
+--> javac filename.javaFirst
+--> java classname
+*/
