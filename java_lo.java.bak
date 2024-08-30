@@ -1,0 +1,36 @@
+// logic opreater
+class java_lo
+{
+	public static void main(String args[])
+	{
+		/*
+		logic opreater
+		and    or    not
+		&&     ||     !
+		*/
+		
+		//&&(and opreater)
+	  int  a=4;
+	  int  b=5;
+	  System.out.println(a!=b && a<b);
+	  
+	   int  x=4;
+	   int  y=5;
+	  System.out.println(x==b && a>b);
+	  
+	  // ||(or opreater)
+	  
+	  int w=9;
+	  System.out.println(a%2==0 || a%9==0);
+	  
+	  // ! (not opreater)
+	  
+	  int f=6;
+	  int g=7;
+	  System.out.println(!(100>100));
+	  
+	  int m=6;
+	  int n=7;
+	  System.out.println(!(100>100));
+	}	
+}
