@@ -1,0 +1,12 @@
+class java_exp
+{
+	public static void main(String args[])
+	{
+	 if(true)
+	 {
+		 system.out.println("if block");
+	 }
+	
+	}
+	
+}

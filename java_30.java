@@ -19,5 +19,12 @@ class java_30
 		
 		System.out.println(a<=b);
 		
+		
+		/*
+		logic opreater
+		and    or    not
+		&&     ||     !
+		*/
+		
 	}	
 }
