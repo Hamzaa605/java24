@@ -1,0 +1,43 @@
+import java.util.*;
+class java_for2
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		int y=sc.nextInt();
+		
+		for(int i=13;i<=21;i++)
+		{
+			System.out.print(i+" ");
+		}
+		System.out.println();
+		
+		for(int n=21;n>=13;n--)
+		{
+			System.out.print(n+" ");
+		}
+		
+		System.out.println();
+		
+		for(int x=1;x<=10;x++)
+		{
+			System.out.println(5*x);
+		}
+		
+		System.out.println();
+		
+		for(int q=1;q<=10;q++)
+		{
+			System.out.println(y*q);
+		}
+		
+		System.out.println();
+		
+		int sum=0;
+		for(int p=1;p<=5;p++)
+		{
+			sum=sum+p;
+		}
+		System.out.println("sum is"+sum);
+	}
+}
