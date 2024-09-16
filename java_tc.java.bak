@@ -1,0 +1,24 @@
+import java.util.*;
+class java_tc
+{
+	public static void main(String args[])
+	{
+		//widening typecasting
+		//byte->short->char->int->long->float->double
+		int a=12;
+		long b=a;
+		System.out.println(b);
+		
+		//narrowing typecasting
+		//double->float->long->int->char->short->byte
+		int c=100;
+		byte d=(byte)c;//int to byte conversion
+		System.out.println(d);
+		
+		//============================================
+		
+		int e=65;
+		char ch=(char)e;
+		System.out.println(ch);
+	}
+}
