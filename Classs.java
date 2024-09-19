@@ -1,0 +1,19 @@
+class Student
+{
+	int rollNO;
+	String name;
+}
+
+class Classs
+{
+	public static void main(String args[])
+	{
+		Student s1=new Student();
+		
+		s1.rollNO=101;
+		s1.name="amit";
+		
+		System.out.println(s1.rollNO);
+		System.out.println(s1.name);
+	}
+}

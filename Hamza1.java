@@ -1,0 +1,35 @@
+class Product
+{
+	String pName;
+	int pPrice;
+	int quantity;
+	
+	void pDiscount()
+{
+	System.out.println("Product Discount");
+}
+
+void pSale()
+{
+	System.out.println("Product Sale price");
+	System.out.println(pName+" "+pPrice+" "+quantity);
+}
+}
+
+class Hamza1
+{
+	public static void main(String args[])
+	{
+		Product p1=new Product();
+		
+		p1.pName="chips";
+		p1.pPrice=10;
+		p1.quantity=100;
+		
+		p1.pDiscount();
+		p1.pSale();
+		
+		
+		
+	}
+}
