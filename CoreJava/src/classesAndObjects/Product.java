@@ -6,6 +6,11 @@ public class Product
     String productName;
     int productPrice;
     
+    Product()
+    {
+    System.out.println("PRODUCTS");	
+    }
+    
     //Methods
     void setProductDetails(int productId,String productName,int productPrice)
     {

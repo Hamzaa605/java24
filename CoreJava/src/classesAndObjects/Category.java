@@ -17,5 +17,7 @@ public class Category {
 	Order p3=new Order();
 	p3.setOrderDetails(111, "Faiz");
 	
+	new Product();
+	
 	}
 }
