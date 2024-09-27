@@ -11,5 +11,7 @@ public class Employee1 {
 	  
 	  
 	  PartTimeEmployee pt1=new PartTimeEmployee(103,"chetan",60000,5000);
+	  
+	  Programmer p1=new Programmer(104,"Rayyan", 50000, 21,"Frs2451", "Jana");
 }
 }
