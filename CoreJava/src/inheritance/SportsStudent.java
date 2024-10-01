@@ -7,7 +7,7 @@ class SportStudent extends Student
 	
 	SportStudent(int rollNo,String name,int marks,int graceMarks,String sportsName)
 	{
-		super(int rollNo,String name,int marks);
+		super(int rollNo,String name1,int marks);
 		this.graceMarks=graceMarks;
 		this.sportsName=sportsName;
 	}
