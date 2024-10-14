@@ -21,6 +21,13 @@ public class Student {
 	{
 		this.name=name;
 	}
+	public Student(int id, String name, int age, int phoneNO) {
+		super();
+		this.id = id;
+		this.name = name;
+		Age = age;
+		PhoneNO = phoneNO;
+	}
 	public String getName() 
 	{
 		return this.name;
