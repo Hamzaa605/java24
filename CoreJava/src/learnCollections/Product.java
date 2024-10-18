@@ -1,6 +1,6 @@
 package learnCollections;
-
-public class Product {
+//public class Product implements Comparable<Product>
+public class Product  {
 
 	private int id;
 	private String name;
@@ -39,5 +39,26 @@ public class Product {
 	public void setPrice(int price) {
 		this.price = price;
 	}
+	
+	
+	/*@Override
+	public int compareTo(Product o) {
+		// TODO Auto-generated method stub
+		return this.name.compareTo(o.name);
+	}*/
+	
+	//DCE
+	/*@Override
+	public int compareTo(Product o) {
+		// TODO Auto-generated method stub
+		return o.price-this.price;}*/
+		
+	
+	//ACE
+	/*@Override
+	public int compareTo(Product o) {
+	// TODO Auto-generated method stub
+	return this.price-o.price;}*/
+	
 	
 }

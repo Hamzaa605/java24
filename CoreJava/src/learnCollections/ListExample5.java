@@ -1,6 +1,7 @@
 package learnCollections;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.function.Predicate;
 
@@ -30,6 +31,8 @@ public class ListExample5 {
 		
 		products.removeIf(p->p.getPrice()<10000);
 		System.out.println(products);
+		
+		
 	}
 	
 }
