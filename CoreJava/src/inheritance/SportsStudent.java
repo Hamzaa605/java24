@@ -1,4 +1,4 @@
-package inheritance;
+/*package inheritance;
 
 class SportStudent extends Student
 {
@@ -6,11 +6,10 @@ class SportStudent extends Student
 	String sportsName;
 	
 	SportStudent(int rollNo,String name,int marks,int graceMarks,String sportsName)
-	{
-		super(int rollNo,String name1,int marks);
+	/*{
+		super(int rollNo1,String name1,int marks);
 		this.graceMarks=graceMarks;
 		this.sportsName=sportsName;
 	}
-}
-
+}*/
 
